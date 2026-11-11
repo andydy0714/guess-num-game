@@ -1,0 +1,1 @@
+web: gunicorn guess_num:app
