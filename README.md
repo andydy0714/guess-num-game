@@ -1,5 +1,4 @@
 # 猜數字遊戲
-
 一個用 Flask 寫的網頁版猜數字遊戲。
 
 # 功能
@@ -8,7 +7,10 @@
 猜對後重新開始,
 非法輸入有提示（非整數、負數、0）
 
-# 執行
+# 本地執行
 pip install flask,
 python guess_num.py,
 瀏覽器訪問 http://127.0.0.1:5000/guess_num_game
+
+# 直接訪問
+https://rhyme-remodeler-september.ngrok-free.dev/guess_num_game
