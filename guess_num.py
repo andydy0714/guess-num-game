@@ -98,7 +98,7 @@ def generate_bg():
     if not prompt:
         return {"error": "請輸入背景描述"}, 400
 
-    api_key = "sk-aopzgmvcuzfkflvipmaizwimcricrrjwyxqkucrllfgovsee"  #API Key
+    api_key = "sk-"  #API Key
     url = "https://api.siliconflow.cn/v1/images/generations"
     headers = {
         "Authorization": f"Bearer {api_key}",
